@@ -1,3 +1,4 @@
+import math
 # -*- coding: utf-8 -*-
 """
 Editor de Spyder
@@ -8,7 +9,7 @@ Este es un archivo temporal.
 
 """ Esto es un
     Comentario de un parrafo """
-    
+
 a = 5
 # -*- VARIABLES -*-
 print("Hola Mundo")
@@ -41,3 +42,45 @@ print(x)
 
 x = str(2)
 print(x)
+
+# -*- MANEJO DE CADENAS DE TEXTO -*-
+
+cad = "Hello World"
+print(cad[0])
+print(cad[0:5])
+print(len(cad))
+print(cad.lower())
+print(cad.upper())
+print(cad.replace('l', 'y'))
+print(cad.split(" "))
+cad = cad.strip()
+print(cad)
+
+# -*- OPERACIONES -*-
+a = 4
+b = 3
+c = a // b  # division entera
+c = a ** b  # -*- raiz -*-
+c = math.sqrt(a)  # Exponente ( intercambia con la linea de arriba)
+c = a % b  # Mod
+
+
+# CAPTURA POR CONSOLA
+
+print("Digite su nombre")
+nombre = input()
+print("Hola "+nombre+"!")
+
+print("Digite a")
+a = input()
+print("Digite b")
+b = input()
+
+if a > b:
+        print(a, " Es mayor que ", b)
+else:
+        print(b, "Es mayor que ", a)
+
+if a > b:
+    if b > 1:
+        print(b, "Es mayor que 1 y es mayor que ", a)
