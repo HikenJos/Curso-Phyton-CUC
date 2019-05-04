@@ -84,3 +84,23 @@ else:
 if a > b:
     if b > 1:
         print(b, "Es mayor que 1 y es mayor que ", a)
+
+
+# EJERCICIO CONDICIONAL
+
+
+print("Digite su edad")
+
+edad = input()
+x = int(edad)
+
+if x >= 18:
+    print("Usted es mayor de edad")
+else:
+    print("Usted es menor de edad")
+    
+    
+# VECTORESS!!!!!!!!!!!!!!
+    
+v = ["hola", "mundo", 4, 3, True, ["Otro", "Array"]]    
+    
