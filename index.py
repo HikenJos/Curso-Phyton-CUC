@@ -104,6 +104,9 @@ else:
 
 v = ["hola", "mundo", 4, 3, True, ["Otro", "Array"]]
 
+aux = v[-1][0]  # ACCEDER A UN VECTOR DENTRO DE OTRO (INFINITAMENTE)
+print(aux)
+
 v2 = ["hola", "mundo"]
 
 v3 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -137,3 +140,51 @@ v.count('mundo')  # NUMERO DE VECES DE UN OBJETO EN UN VECTOR
 # ORDENAR UN VECTOR
 
 a = [5, 9, 6, 7, 11]
+a.sort()
+
+res = 9 in a  # PREGUNTAR SI EXISTE UN ELEMENTO EN UN VECTOR
+print(res)
+
+# RECIRRER VECTOR
+
+v = v[2:5]
+
+# RECORRER CON SALTO
+
+a = [5, 9, 6, 7, 11]
+
+for x in a[0:5:2]:
+
+# EJERCICIO
+
+suma = 1
+print("Digite limite de sumatoria")
+lim = input()
+x = int(lim)
+vec = []
+for z in vec[1:x]:
+    suma = suma+1
+
+print(suma)
+
+
+# MIENTRAS QUE
+
+i = 2
+
+while i < 5:
+    print(i)
+    i = i + 1
+
+
+# FUNCIONES
+
+def hola_mundo():
+    print("hola mundo")
+
+
+hola_mundo()
+
+
+def alCuadrado(numero):
+    return numero ** 2
