@@ -98,9 +98,42 @@ if x >= 18:
     print("Usted es mayor de edad")
 else:
     print("Usted es menor de edad")
-    
-    
+
+
 # VECTORESS!!!!!!!!!!!!!!
-    
-v = ["hola", "mundo", 4, 3, True, ["Otro", "Array"]]    
-    
+
+v = ["hola", "mundo", 4, 3, True, ["Otro", "Array"]]
+
+v2 = ["hola", "mundo"]
+
+v3 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+v4 = range(1, 201)
+
+v5 = range(201)
+
+for x in v2:
+    print(x)
+
+
+# MODIFICAR ELEMENTO
+
+v2[1] = "LosLannisterSiemprePaganSusDeudas"
+
+v2.remove("hola")  # ELIMINAR ELEMENTO
+
+v2.pop()  # ELIMINAR  ULTIMO ELEMENTO
+v2.pop(1)
+
+v.append(5)  # INSERTAR ELEMENTO
+v.insert(1, "Roberto")  # INSERTAR ELEMENTO ANTES DE
+
+v.index('mundo')  # SABER LA POSSICION DE ALGO
+
+len(v)  # TAMAÑO DEL VECTOR
+
+v.count('mundo')  # NUMERO DE VECES DE UN OBJETO EN UN VECTOR
+
+# ORDENAR UN VECTOR
+
+a = [5, 9, 6, 7, 11]
