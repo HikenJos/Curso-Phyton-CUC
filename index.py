@@ -161,8 +161,7 @@ suma = 1
 print("Digite limite de sumatoria")
 lim = input()
 x = int(lim)
-vec = []
-for z in vec[1:x]:
+range(1, x)
     suma = suma+1
 
 print(suma)
@@ -187,4 +186,9 @@ hola_mundo()
 
 
 def alCuadrado(numero):
+    print("Digite un numero)
+    input(numero)
     return numero ** 2
+
+
+alCuadrado()
